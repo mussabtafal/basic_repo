@@ -1,0 +1,38 @@
+mkdir basic-repo
+
+git init 
+
+touch Index1.html
+
+touch Style1.css
+
+git add .
+
+git status
+
+git commit " My very first Test commit "
+
+git push origin master
+
+==> Modify Index1.html <==
+==> Modify Style1.css  <==
+
+git add Index1.html 
+
+git commit -m " new files "
+
+git status
+
+git push origin master 
+
+git add Style1.css 
+
+git commit -m " new files "
+
+git status
+
+git push origin master 
+
+git push 
+
+
