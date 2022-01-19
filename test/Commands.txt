@@ -1,0 +1,42 @@
+mkdir Test
+
+cd Test 
+
+git init 
+
+touch Index.html
+
+touch Style.css
+
+git add .
+
+git status
+
+git commit " My very first Test commit "
+
+git push origin master
+
+==> Modify Index.html <==
+==> Modify Style.css  <==
+
+git add Index.html 
+
+git commit -m " Udate HTML "
+
+git status
+
+git push origin master 
+
+git add Style.css 
+
+git commit -m " Udate HTML "
+
+git status
+
+git push origin master 
+
+git revert HEAD
+
+git push 
+
+
